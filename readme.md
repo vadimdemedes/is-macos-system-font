@@ -1,4 +1,4 @@
-# is-macos-system-font
+# is-macos-system-font [![test](https://github.com/vadimdemedes/is-macos-system-font/actions/workflows/test.yml/badge.svg)](https://github.com/vadimdemedes/is-macos-system-font/actions/workflows/test.yml)
 
 > Check if font comes installed with macOS.
 
