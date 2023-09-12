@@ -1,6 +1,6 @@
 {
 	"name": "is-macos-system-font",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Check if font comes installed with macOS",
 	"license": "MIT",
 	"repository": "vadimdemedes/is-macos-system-font",
