@@ -1,17 +1,31 @@
-# nodejs-library
+# is-macos-system-font
 
-> Description
+> Check if font comes installed with macOS.
 
 ## Install
 
 ```sh
-npm install nodejs-library
+npm install is-macos-system-font
+```
+
+## Usage
+
+```js
+import isMacosSystemFont from 'is-macos-system-font';
+
+isMacosSystemFont('Avenir');
+//=> true
+
+isMacosSystemFont('Inter');
+//=> false
 ```
 
 ## API
 
-### hello()
+### isMacosSystemFont(name)
 
-Type: `Function`
+#### name
 
-Greet a person.
+Type: `string`
+
+Name of the font.

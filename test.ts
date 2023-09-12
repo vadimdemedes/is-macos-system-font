@@ -1,6 +1,7 @@
 import test from 'ava';
-import hello from './source/index.js';
+import isMacosSystemFont from './source/index.js';
 
-test('hello', t => {
-	t.is(hello(), 'world');
+test('check if font comes installed with macOS', t => {
+	t.true(isMacosSystemFont('Avenir'));
+	t.false(isMacosSystemFont('Inter'));
 });
